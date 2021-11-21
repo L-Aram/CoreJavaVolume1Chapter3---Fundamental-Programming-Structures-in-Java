@@ -17,7 +17,7 @@ public class ThreeWorkspaceOne{
                                         // '_' meant only for human eyes and ease of understanding number magnitude (or scale? don't know)
 
         numberInt = 0B1001;             // Prefix 0B denotes the remaining digits as binary digits -> numberInt = 0 is the equivalent expression
-        numberByte = 0x10;              // Prefix 0x denotes the remaining digits as binary digits -> numberByte = 7 is the equivalent expression
+        numberByte = 0x10;              // Prefix 0x denotes the remaining digits as hexadecimal digits -> numberByte = 7 is the equivalent expression
 
         System.out.println(numberShort);// Prints 8000
         System.out.println(numberInt);  // Prints 9
